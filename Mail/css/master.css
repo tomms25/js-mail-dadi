@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+#container {
+   display: flex;
+   align-items: center;
+   height: 100vh;
+   background-color: aquamarine;
+}
+
+#container > div {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    text-align: center;
+    background-color: white;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(14, 98, 131);
+}
