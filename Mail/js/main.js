@@ -13,7 +13,7 @@ console.log(user_mail);
 
 // Controllare che sia nella lista di chi può accedere
 
-let listaMail = ["tommasobaccano@gmail.com, baccanotommaso@gmail.com, tom.stud@uniroma3.it"];
+let listaMail = ["tommasobaccano@gmail.com", "baccanotommaso@gmail.com", "tom.stud@uniroma3.it"];
 console.log(listaMail);
 
 let mailIsValid = false;  
